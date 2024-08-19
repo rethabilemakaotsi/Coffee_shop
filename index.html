@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Add your CSS file here -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">
+            <img src="https://www.pngitem.com/pimgs/m/565-5659987_coffee-cup-coffee-milk-clip-art-creative-coffee.png"
+                alt="Coffee Logo">
+        </a>
+        <!-- Menu-Icon -->
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <!-- Links -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!-- Icon -->
+        <div class="header-icon">
+            <i class="bx bx-cart-alt"></i>
+            <i class="bx bx-search" id="search-icon"></i>
+        </div>
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="search" placeholder="Espresso...">
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>You deserve a <br>coffee break every day</h1>
+            <p>"Brewing up a Storm - Our Coffee Will Keep You Going!"</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="https://i.ibb.co/KDs6m93/home-Coffee-removebg-preview.png" alt="Coffee Image"> <!-- Add image source here -->
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://www.delicozy.in/wp-content/uploads/2022/05/Top-5-Interesting-Facts-about-Coffee-Delicozy.jpg"
+                alt="About Us">
+        </div>
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Welcome to our coffee shop! Our coffee is sourced from around the world and roasted to perfection.</p>
+            <p>We offer a wide variety of coffee beans and blends, as well as flavored coffees and teas.</p>
+            <p>Thank you for choosing us for your coffee needs!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Products -->
+<section class="products" id="products">
+    <div class="heading">
+        <h2>Our Popular Products</h2>
+    </div>
+    <!-- Container -->
+    <div class="products-container">
+        <div class="box">
+            <img src="https://i.ibb.co/cTHxJ9Q/product1-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ibb.co/k1dGM3g/product2-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ibb.co/cTHxJ9Q/product1-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ibb.co/cTHxJ9Q/product1-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ibb.co/cTHxJ9Q/product1-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.ibb.co/cTHxJ9Q/product1-removebg-preview.png"
+                alt="Americano Pure">
+            <h3>Americano Pure</h3>
+            <div class="content">
+                <span>$30</span>
+                <a href="#cart">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cart" id="cart">
+    <div class="heading">
+        <h2>Your Shopping Cart</h2>
+    </div>
+    <div class="cart-container">
+        <p>Your cart is currently empty.</p> <!-- Default message when the cart is empty -->
+    </div>
+    <div class="cart-footer">
+        <h3>Total: $<span id="cart-total">0.00</span></h3>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+</section>
+
+    <!-- Customers -->
+    <section class="customers" id="customers">
+        <div class="heading">
+            <h2>Our Customers</h2>
+        </div>
+        <!-- Container -->
+        <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>The beans are fresh and have a rich, bold flavor.</p>
+                <h2>Akira Nakamura</h2>
+                <img src="https://i.pinimg.com/736x/57/3f/22/573f22a1aa17b366f5489745dc4704e1.jpg" alt="Customer Photo">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>The beans are fresh and have a rich, bold flavor.</p>
+                <h2>Akira Nakamura</h2>
+                <img src="https://i.pinimg.com/736x/57/3f/22/573f22a1aa17b366f5489745dc4704e1.jpg" alt="Customer Photo">
+            </div><div class="box">
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>The beans are fresh and have a rich, bold flavor.</p>
+                <h2>Akira Nakamura</h2>
+                <img src="https://i.pinimg.com/736x/57/3f/22/573f22a1aa17b366f5489745dc4704e1.jpg" alt="Customer Photo">
+            </div>
+            
+            <!-- Repeat the above block for more customer testimonials -->
+        </div>
+    </section>
+</body>
+
+</html>
